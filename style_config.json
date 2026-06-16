@@ -1,0 +1,65 @@
+{
+  "window": {
+    "title": "BCacheTranslation",
+    "min_width": 1000,
+    "min_height": 700,
+    "margins": [15, 10, 15, 10],
+    "spacing": 10
+  },
+  "fonts": {
+    "family": "Microsoft YaHei",
+    "sizes": {
+      "global": 10,
+      "title": 24,
+      "button": 13,
+      "card_title": 14,
+      "card_detail": 11,
+      "log": 11,
+      "label": 13,
+      "checkbox": 12
+    }
+  },
+  "colors": {
+    "primary": "#6366f1",
+    "success": "#10b981",
+    "danger": "#ef4444",
+    "warning": "#f59e0b",
+    "info": "#8b8ea8",
+    "dark": "#1e1e2e",
+    "light": "#313244",
+    "border": "#45475a",
+    "background": "#1e1e2e",
+    "card_bg": "#313244",
+    "card_hover": "#45475a",
+    "text": "#cdd6f4",
+    "text_secondary": "#a6adc8",
+    "log_bg": "#11111b",
+    "log_text": "#cdd6f4"
+  },
+  "sizes": {
+    "drop_area_height": 100,
+    "drop_area_padding": 20,
+    "thumb_width": 240,
+    "thumb_height": 135,
+    "log_height": 180,
+    "card_margin": 12,
+    "card_padding": 12,
+    "card_radius": 12
+  },
+  "buttons": {
+    "select_all": {"text": "✓ 全选", "color": "#10b981"},
+    "deselect_all": {"text": "✗ 取消全选", "color": "#f59e0b"},
+    "output_dir": {"text": "📁 输出目录", "color": "#6366f1"},
+    "reset_output": {"text": "⟳ 重置", "color": "#6b7280"},
+    "start": {"text": "▶ 开始处理", "color": "#10b981"},
+    "stop": {"text": "⏹ 停止", "color": "#ef4444"},
+    "rescan": {"text": "🔄 刷新", "color": "#6366f1"}
+  },
+  "status_colors": {
+    "PENDING": "#8b8ea8",
+    "PROCESSING": "#6366f1",
+    "SUCCESS": "#10b981",
+    "FAILED": "#ef4444",
+    "SKIPPED": "#6b7280"
+  }
+}

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 构建输出
+build/
+dist/
+*.spec
+
+# 项目生成目录
+logs/
+temp/
+output/
+errors/
+*.log
+
+# 配置文件（用户私有）
+settings.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+Thumbs.db
+.DS_Store"__pycache__/" 
+".venv/" 
+"build/" 
+"dist/" 
+"*.spec" 
+"logs/" 
+"temp/" 
+"output/" 
+"errors/" 
+"settings.json" 
+".idea/" 
+".vscode/" 
