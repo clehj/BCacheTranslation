@@ -32,15 +32,12 @@ settings.json
 
 # 系统文件
 Thumbs.db
-.DS_Store"__pycache__/" 
-".venv/" 
-"build/" 
-"dist/" 
-"*.spec" 
-"logs/" 
-"temp/" 
-"output/" 
-"errors/" 
-"settings.json" 
-".idea/" 
-".vscode/" 
+.DS_Store
+
+# 大文件（已移到 Release）
+ffmpeg/ffmpeg.exe
+installer/*.exe
+
+# 个人脚本
+0push.bat
+push.bat
