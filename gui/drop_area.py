@@ -25,7 +25,7 @@ class DropArea(QLabel):
                 border-radius: 8px;
                 background-color: #313244;
                 color: #a6adc8;
-                font-size: 12px;
+                fonts-size: 12px;
                 padding: 15px;
             }
             QLabel:hover {
@@ -45,7 +45,7 @@ class DropArea(QLabel):
                     border-radius: 8px;
                     background-color: #45475a;
                     color: #89b4fa;
-                    font-size: 12px;
+                    fonts-size: 12px;
                     padding: 15px;
                 }
             """)
@@ -59,7 +59,7 @@ class DropArea(QLabel):
                 border-radius: 8px;
                 background-color: #313244;
                 color: #a6adc8;
-                font-size: 12px;
+                fonts-size: 12px;
                 padding: 15px;
             }
         """)
