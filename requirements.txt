@@ -1,5 +1,6 @@
 PyQt5>=5.15.0
-PyQt5-sip>=12.11.0altgraph==0.17.5
+PyQt5-sip>=12.11.0
+altgraph==0.17.5
 packaging==26.2
 pyinstaller==6.21.0
 pyinstaller-hooks-contrib==2026.6
