@@ -101,7 +101,7 @@ class MainWindow(QMainWindow):
 
         list_label = QLabel("📺 缓存视频列表")
         list_label.setStyleSheet(
-            f"font-size: {style_manager.get_font_size('label')}px; font-weight: 500; color: #cdd6f4;"
+            f"fonts-size: {style_manager.get_font_size('label')}px; fonts-weight: 500; color: #cdd6f4;"
         )
         main_layout.addWidget(list_label)
 
@@ -140,7 +140,7 @@ class MainWindow(QMainWindow):
         self.settings_panel.create(main_layout)
 
         self.status_label = QLabel("就绪")
-        self.status_label.setStyleSheet("color: #a6adc8; padding: 4px 5px; font-size: 11px;")
+        self.status_label.setStyleSheet("color: #a6adc8; padding: 4px 5px; fonts-size: 11px;")
         main_layout.addWidget(self.status_label)
 
         self.log_area.create(main_layout)
@@ -148,7 +148,7 @@ class MainWindow(QMainWindow):
         self._create_control_buttons(main_layout)
 
         self.output_label = QLabel("📂 输出目录: 未选择")
-        self.output_label.setStyleSheet("color: #a6adc8; font-size: 10px; padding: 4px;")
+        self.output_label.setStyleSheet("color: #a6adc8; fonts-size: 10px; padding: 4px;")
         main_layout.addWidget(self.output_label)
 
     def _create_control_buttons(self, layout):
@@ -291,7 +291,7 @@ class MainWindow(QMainWindow):
 
         # 标题
         title = QLabel("BCacheTranslation")
-        title.setStyleSheet("font-size: 20px; font-weight: bold; color: #89b4fa;")
+        title.setStyleSheet("fonts-size: 20px; fonts-weight: bold; color: #89b4fa;")
         title.setAlignment(Qt.AlignCenter)
         layout.addWidget(title)
 
@@ -315,7 +315,7 @@ class MainWindow(QMainWindow):
 
         # 功能特点
         features = QLabel("功能特点：")
-        features.setStyleSheet("font-weight: bold; color: #89b4fa;")
+        features.setStyleSheet("fonts-weight: bold; color: #89b4fa;")
         features.setAlignment(Qt.AlignCenter)
         layout.addWidget(features)
 
