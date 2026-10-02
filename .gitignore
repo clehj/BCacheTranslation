@@ -35,8 +35,8 @@ Thumbs.db
 .DS_Store
 
 # 大文件（已移到 Release）
-ffmpeg/ffmpeg.exe
-installer/*.exe
+ffmpeg/
+installer/
 
 # 个人脚本
 0push.bat
